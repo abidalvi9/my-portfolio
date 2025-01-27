@@ -139,23 +139,3 @@ form {
 form input, form textarea {
     padding: 10px;
     border: 1px
-
-/* Animations */
-@keyframes fadeIn {
-    from {
-        opacity: 0;
-        transform: translateY(20px);
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
-
-section {
-    animation: fadeIn 1s ease-out;
-}
-
-.project-card {
-    animation: fadeIn 0.5s ease-out;
-}    
